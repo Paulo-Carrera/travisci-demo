@@ -1,0 +1,38 @@
+CONTINUOUS INTEGRATION (CI)
+
+Continuous Integration (CI)
+Continuous Integration is the practice of merging in small code 
+changes frequently, rather than merging in a large change at the 
+end of a development cycle .
+- The goal is to build better software by developing and testing
+  in smaller increments .
+
+
+What can CI do for you ?
+- Automate running your tests when pushing your code 
+- Reject deployments if your tests do not pass 
+- Easily notify you when changes to your test suite occur 
+
+
+How does it work ?
+- It integrates with tools like GitHub and carries out a series of 
+  tasks to build and test your code 
+- If one or more of those tasks fail, the build is considered broken
+- If none of the tasks fail, the build is considered passed, and 
+  Travis CI can deploy your code 
+
+
+Common CI Tools 
+- Travis CI
+- Jenkins
+- Circle CI 
+- Buddy
+
+
+Using Travis CI 
+Imagine we have the following code :
+-----------------------------------------------------------------------------------------------------------------------------------
+
+-----------------------------------------------------------------------------------------------------------------------------------
+
+
